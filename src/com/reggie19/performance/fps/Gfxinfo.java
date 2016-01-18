@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 import java.util.Arrays;
+
 /**
+ * Created on 2016/01/18
  * 
- * @author reggie 16/01/18
+ * @author Reggie
  *
  */
 
