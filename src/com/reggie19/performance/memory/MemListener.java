@@ -1,7 +1,7 @@
 package com.reggie19.performance.memory;
 
 /**
- * Created on 2016/01/18
+ * Created on 2016/01/21
  * 
  * @author Reggie
  *
@@ -9,7 +9,7 @@ package com.reggie19.performance.memory;
 
 public class MemListener implements Runnable {
 
-	final String packageName = "com.aurora.puremanager";// 被测应用进程名
+	final String packageName = "com.sina.weibo";// 被测应用进程名
 	final int count = 10;// 循环次数
 
 	public static void main(String[] args) {
