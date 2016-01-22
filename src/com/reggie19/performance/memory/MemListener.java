@@ -9,7 +9,7 @@ package com.reggie19.performance.memory;
 
 public class MemListener implements Runnable {
 
-	final String packageName = "com.sina.weibo";// 被测应用进程名
+	final String packageName = "";// 被测应用进程名
 	final int count = 10;// 循环次数
 
 	public static void main(String[] args) {
