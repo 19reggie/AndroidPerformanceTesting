@@ -17,7 +17,7 @@ public class Gfxinfo {
 
 	public static String getFPS() {
 		String command = "adb shell dumpsys gfxinfo " + getPackageName();
-		String commandResult = null;
+//		String commandResult = null;
 		try {
 			Process proc = Runtime.getRuntime().exec(command);
 			BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));
@@ -74,7 +74,7 @@ public class Gfxinfo {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println(commandResult);
+//		System.out.println(commandResult);
 		return null;
 	}
 

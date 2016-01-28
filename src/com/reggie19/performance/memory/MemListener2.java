@@ -16,8 +16,8 @@ import java.util.Date;
 
 public class MemListener2 implements Runnable {
 
-	final String packageName = "";// 被测应用进程名
-	final int count = 10;// 循环次数
+	final String packageName = "com.aurora.puremanager";// 被测应用进程名
+	final int count = 10000;// 循环次数
 
 	public static void main(String[] args) {
 		 new MemListener2().run();
